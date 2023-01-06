@@ -8,27 +8,28 @@
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 <body>
-    <div class="progress">
-        <div class="progress--bar"></div>
-    </div>
-
-    <div class="questionArea">
-        <div class="question">...</div>
-        <div class="options">
-            
+    <header>
+        <div class="progress">
+            <div class="progress--bar"></div>
         </div>
-    </div>
-
-    <div class="scoreArea">
-        <img src="prize.png" class="prizeImage" />
-        <div class="scoreText1">Parabéns!</div>
-        <div class="scorePct">Acertou 99%</div>
-        <div class="scoreText2">Você respondeu 9 questões e acertou 8.</div>
+    </header>
+    <main>
+        <section class="question-section">
+            <h1 class="question">...</h1>
+            <ul class="options">
+                <!-- options go here -->
+            </ul>
+            <div class="message message--feedback"></div>
+        </section>
+    </main>
+    <footer class="score-area">
+        <img src="prize.png" class="prize-image" />
+        <h1 class="score-text-1"></h1>
+        <p class="score-pct"></p>
+        <p class="score-text-2"></p>
         <button>Fazer novamente</button>
-    </div>
-
-    <footer>Criado pela B7Web</footer>
-
+    </footer>
+    
     <script src="questions.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
