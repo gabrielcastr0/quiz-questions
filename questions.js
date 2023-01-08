@@ -1,53 +1,101 @@
 const questions = [
   {
-    question: 'O que é o React?',
+    question: "O que é o React?", 
     options: [
-      'Uma biblioteca JavaScript para criar interfaces de usuário',
-      'Uma ferramenta para gerenciar o estado em aplicativos da web',
-      'Um framework de renderização no lado do servidor',
-      'Um gerenciador de pacotes para bibliotecas JavaScript'
-    ],
-    answer: 1
-  },
-  {
-    question: 'Como o estado é geralmente gerenciado em uma aplicação do React?',
-    options: [
-      'Usando um objeto de estado global',
-      'Usando props para passar dados entre componentes',
-      'Usando uma ferramenta de gerenciamento de estado centralizada como o Redux',
-      'Usando o estado interno do componente'
-    ],
-    answer: 3
-  },
-  {
-    question: 'O que é um componente de ordem superior no React?',
-    options: [
-      'Um componente que é renderizado no servidor',
-      'Um componente que é renderizado no cliente',
-      'Uma função que recebe um componente como argumento e retorna um novo componente',
-      'Um componente que gerencia o fetching de dados'
-    ],
-    answer: 3
-  },
-  {
-    question: 'Como você pode vincular um valor específico de this a um método de classe em um componente do React?',
-    options: [
-      'Usando o método `bind` no construtor do componente',
-      'Usando o método `call` no método',
-      'Usando o método `apply` no método',
-      'Usando uma função de seta'
+    "Uma biblioteca JavaScript para construção de interfaces de usuário", 
+    "Um framework CSS", 
+    "Um framework backend", 
+    "Uma biblioteca de visualização de dados",
     ],
     answer: 0
   },
   {
-    question: 'Qual é o propósito do método `render` em um componente do React?',
+    question: "O que é o DOM virtual?",
     options: [
-      'Definir o estado inicial do componente',
-      'Definir os tipos de propriedades do componente',
-      'Definir os manipuladores de eventos do componente',
-      'Retornar o JSX que deve ser renderizado para o componente'
+      "Uma representação virtual do DOM real",
+      "Uma maneira de manipular o DOM real",
+      "Uma alternativa ao DOM real",
+      "Uma ferramenta para otimização de performance"
     ],
-    answer: 3
+    answer: 0
+  },
+  {
+    question: "O que é o JSX?",
+    options: [
+      "Uma extensão de sintaxe JavaScript",
+      "Uma ferramenta para otimização de performance",
+      "Uma maneira de manipular o DOM virtual",
+      "Um pré-processador para HTML e CSS"
+    ],
+    answer: 0
+  },
+  {
+    question: "O que é um estado no React?",
+    options: [
+      "Um objeto que armazena dados específicos de um componente",
+      "Uma maneira de manipular o DOM real",
+      "Uma maneira de estilizar um componente",
+      "Uma maneira de passar dados entre componentes"
+    ],
+    answer: 0
+  },
+  {
+    question: "O que é uma propriedade no React?",
+    options: [
+      "Uma maneira de passar dados de um componente pai para um componente filho",
+      "Uma maneira de manipular o DOM virtual",
+      "Uma maneira de estilizar um componente",
+      "Uma maneira de definir o estado de um componente"
+    ],
+    answer: 0
+  },
+  {
+    question: "Qual é o propósito de um componente no React?",
+    options: [
+      "Dividir a IU em pedaços reutilizáveis",
+      "Manipular o DOM real",
+      "Definir o layout de uma página",
+      "Tratar a entrada do usuário"
+    ],
+    answer: 0
+  },
+  {
+    question: "O que é um componente de ordem superior no React?",
+    options: [
+      "Uma função que recebe um componente e retorna um novo componente",
+      "Uma maneira de passar dados entre componentes",
+      "Uma maneira de definir o estado de um componente",
+      "Uma maneira de estilizar um componente"
+    ],
+    answer: 0
+  },
+  {    
+    question: "Qual é o propósito da propriedade `key` em uma lista de elementos do React?",    
+    options: [      
+      "Fornecer um identificador único para cada elemento da lista",      
+      "Otimizar o desempenho permitindo que o React identifique os elementos de forma mais eficiente",      
+      "Permitir que o React distinga entre elementos do mesmo tipo",      
+      "Permitir que o React atualize a lista de forma mais eficiente quando a lista mudar"    ],
+    answer: 0
+  },
+  {
+    question: "Qual é o propósito do hook `useRef()` no React?",
+    options: [
+      "Criar uma referência mutável para um elemento DOM",
+      "Criar uma referência para uma instância de componente baseada em classe",
+      "Criar uma referência para um componente funcional",
+      "Criar uma referência para um valor que não muda com o tempo"
+    ],
+    answer: 0
+  },
+  {
+    question: "Qual é o propósito do hook `useContext()` no React?",
+    options: [
+      "Acessar o valor de contexto de dentro de um componente funcional",
+      "Criar um novo valor de contexto",
+      "Atualizar o valor de contexto",
+      "Definir o valor de contexto para um componente baseado em classe"
+    ],
+    answer: 0
   }
 ]
-  
