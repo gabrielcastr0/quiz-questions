@@ -62,8 +62,8 @@ function finishQuiz() {
   const points = Math.floor((correctAnswers / questions.length) * 100);
   const scorePct = document.querySelector('.score-pct');
   const scoreText2 = document.querySelector('.score-text-2');
-  scorePct.innerHTML = `Acertou ${points}%`;
-  scoreText2.innerHTML = `Você respondeu ${questions.length} questões e acertou ${correctAnswers}`;
+  scorePct.innerHTML = `Aproveitamento: ${points}%`;
+  scoreText2.innerHTML = `Acertou ${correctAnswers} de ${questions.length} questões!`;
 
   if (points < 30) {
     scorePct.style.color = '#FF0000';
